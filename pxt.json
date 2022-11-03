@@ -1,0 +1,30 @@
+{
+    "name": "Temperature logger DS18B20",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "ds18b20": "github:dfrobot/pxt-ds18b20#ca9c1190ad26574a52302a17e4b80dd4759ac236",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.3",
+        "tag": "v2.0.3",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/20acea2a251df78bdb42ba349f529382275fe1bf",
+        "target": "5.0.12",
+        "pxt": "5.15.10",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
